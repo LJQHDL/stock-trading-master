@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:00+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:34+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysUserBoToSysUserMapperImpl implements SysUserBoToSysUserMapper {
@@ -22,16 +22,16 @@ public class SysUserBoToSysUserMapperImpl implements SysUserBoToSysUserMapper {
 
         SysUser sysUser = new SysUser();
 
-        sysUser.setCreateBy( arg0.getCreateBy() );
+        sysUser.setSearchValue( arg0.getSearchValue() );
         sysUser.setCreateDept( arg0.getCreateDept() );
+        sysUser.setCreateBy( arg0.getCreateBy() );
         sysUser.setCreateTime( arg0.getCreateTime() );
+        sysUser.setUpdateBy( arg0.getUpdateBy() );
+        sysUser.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysUser.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysUser.setSearchValue( arg0.getSearchValue() );
-        sysUser.setUpdateBy( arg0.getUpdateBy() );
-        sysUser.setUpdateTime( arg0.getUpdateTime() );
         sysUser.setDeptId( arg0.getDeptId() );
         sysUser.setEmail( arg0.getEmail() );
         sysUser.setNickName( arg0.getNickName() );
@@ -53,9 +53,12 @@ public class SysUserBoToSysUserMapperImpl implements SysUserBoToSysUserMapper {
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -72,9 +75,6 @@ public class SysUserBoToSysUserMapperImpl implements SysUserBoToSysUserMapper {
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
         arg1.setDeptId( arg0.getDeptId() );
         arg1.setEmail( arg0.getEmail() );
         arg1.setNickName( arg0.getNickName() );

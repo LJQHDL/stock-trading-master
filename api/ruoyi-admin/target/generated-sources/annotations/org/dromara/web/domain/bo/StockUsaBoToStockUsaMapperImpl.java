@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:03+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:42+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class StockUsaBoToStockUsaMapperImpl implements StockUsaBoToStockUsaMapper {
@@ -22,11 +22,11 @@ public class StockUsaBoToStockUsaMapperImpl implements StockUsaBoToStockUsaMappe
 
         StockUsa stockUsa = new StockUsa();
 
+        stockUsa.setSearchValue( arg0.getSearchValue() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             stockUsa.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        stockUsa.setSearchValue( arg0.getSearchValue() );
         stockUsa.setAmplitude( arg0.getAmplitude() );
         stockUsa.setCategory( arg0.getCategory() );
         stockUsa.setChg( arg0.getChg() );
@@ -59,6 +59,7 @@ public class StockUsaBoToStockUsaMapperImpl implements StockUsaBoToStockUsaMappe
             return arg1;
         }
 
+        arg1.setSearchValue( arg0.getSearchValue() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -75,7 +76,6 @@ public class StockUsaBoToStockUsaMapperImpl implements StockUsaBoToStockUsaMappe
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setAmplitude( arg0.getAmplitude() );
         arg1.setCategory( arg0.getCategory() );
         arg1.setChg( arg0.getChg() );

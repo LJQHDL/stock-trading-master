@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysNoticeVoToSysNoticeMapperImpl implements SysNoticeVoToSysNoticeMapper {
@@ -22,12 +22,12 @@ public class SysNoticeVoToSysNoticeMapperImpl implements SysNoticeVoToSysNoticeM
 
         sysNotice.setCreateBy( arg0.getCreateBy() );
         sysNotice.setCreateTime( arg0.getCreateTime() );
-        sysNotice.setNoticeContent( arg0.getNoticeContent() );
         sysNotice.setNoticeId( arg0.getNoticeId() );
         sysNotice.setNoticeTitle( arg0.getNoticeTitle() );
         sysNotice.setNoticeType( arg0.getNoticeType() );
-        sysNotice.setRemark( arg0.getRemark() );
+        sysNotice.setNoticeContent( arg0.getNoticeContent() );
         sysNotice.setStatus( arg0.getStatus() );
+        sysNotice.setRemark( arg0.getRemark() );
 
         return sysNotice;
     }
@@ -40,12 +40,12 @@ public class SysNoticeVoToSysNoticeMapperImpl implements SysNoticeVoToSysNoticeM
 
         arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
-        arg1.setNoticeContent( arg0.getNoticeContent() );
         arg1.setNoticeId( arg0.getNoticeId() );
         arg1.setNoticeTitle( arg0.getNoticeTitle() );
         arg1.setNoticeType( arg0.getNoticeType() );
-        arg1.setRemark( arg0.getRemark() );
+        arg1.setNoticeContent( arg0.getNoticeContent() );
         arg1.setStatus( arg0.getStatus() );
+        arg1.setRemark( arg0.getRemark() );
 
         return arg1;
     }

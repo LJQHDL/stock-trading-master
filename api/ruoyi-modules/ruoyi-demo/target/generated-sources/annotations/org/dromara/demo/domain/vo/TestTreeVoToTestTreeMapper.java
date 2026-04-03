@@ -1,13 +1,13 @@
 package org.dromara.demo.domain.vo;
 
-import io.github.linpeilie.AutoMapperConfig__432;
+import io.github.linpeilie.AutoMapperConfig__436;
 import io.github.linpeilie.BaseMapper;
 import org.dromara.demo.domain.TestTree;
 import org.dromara.demo.domain.TestTreeToTestTreeVoMapper;
 import org.mapstruct.Mapper;
 
 @Mapper(
-    config = AutoMapperConfig__432.class,
+    config = AutoMapperConfig__436.class,
     uses = {TestTreeToTestTreeVoMapper.class},
     imports = {}
 )

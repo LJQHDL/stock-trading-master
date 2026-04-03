@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysDeptBoToSysDeptMapperImpl implements SysDeptBoToSysDeptMapper {
@@ -22,24 +22,24 @@ public class SysDeptBoToSysDeptMapperImpl implements SysDeptBoToSysDeptMapper {
 
         SysDept sysDept = new SysDept();
 
-        sysDept.setCreateBy( arg0.getCreateBy() );
+        sysDept.setSearchValue( arg0.getSearchValue() );
         sysDept.setCreateDept( arg0.getCreateDept() );
+        sysDept.setCreateBy( arg0.getCreateBy() );
         sysDept.setCreateTime( arg0.getCreateTime() );
+        sysDept.setUpdateBy( arg0.getUpdateBy() );
+        sysDept.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysDept.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysDept.setSearchValue( arg0.getSearchValue() );
-        sysDept.setUpdateBy( arg0.getUpdateBy() );
-        sysDept.setUpdateTime( arg0.getUpdateTime() );
-        sysDept.setDeptCategory( arg0.getDeptCategory() );
         sysDept.setDeptId( arg0.getDeptId() );
-        sysDept.setDeptName( arg0.getDeptName() );
-        sysDept.setEmail( arg0.getEmail() );
-        sysDept.setLeader( arg0.getLeader() );
-        sysDept.setOrderNum( arg0.getOrderNum() );
         sysDept.setParentId( arg0.getParentId() );
+        sysDept.setDeptName( arg0.getDeptName() );
+        sysDept.setDeptCategory( arg0.getDeptCategory() );
+        sysDept.setOrderNum( arg0.getOrderNum() );
+        sysDept.setLeader( arg0.getLeader() );
         sysDept.setPhone( arg0.getPhone() );
+        sysDept.setEmail( arg0.getEmail() );
         sysDept.setStatus( arg0.getStatus() );
 
         return sysDept;
@@ -51,9 +51,12 @@ public class SysDeptBoToSysDeptMapperImpl implements SysDeptBoToSysDeptMapper {
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -70,17 +73,14 @@ public class SysDeptBoToSysDeptMapperImpl implements SysDeptBoToSysDeptMapper {
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
-        arg1.setDeptCategory( arg0.getDeptCategory() );
         arg1.setDeptId( arg0.getDeptId() );
-        arg1.setDeptName( arg0.getDeptName() );
-        arg1.setEmail( arg0.getEmail() );
-        arg1.setLeader( arg0.getLeader() );
-        arg1.setOrderNum( arg0.getOrderNum() );
         arg1.setParentId( arg0.getParentId() );
+        arg1.setDeptName( arg0.getDeptName() );
+        arg1.setDeptCategory( arg0.getDeptCategory() );
+        arg1.setOrderNum( arg0.getOrderNum() );
+        arg1.setLeader( arg0.getLeader() );
         arg1.setPhone( arg0.getPhone() );
+        arg1.setEmail( arg0.getEmail() );
         arg1.setStatus( arg0.getStatus() );
 
         return arg1;

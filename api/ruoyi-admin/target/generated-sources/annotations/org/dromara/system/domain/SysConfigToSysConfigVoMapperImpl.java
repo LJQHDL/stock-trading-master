@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:04+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:39+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysConfigToSysConfigVoMapperImpl implements SysConfigToSysConfigVoMapper {
@@ -21,12 +21,12 @@ public class SysConfigToSysConfigVoMapperImpl implements SysConfigToSysConfigVoM
         SysConfigVo sysConfigVo = new SysConfigVo();
 
         sysConfigVo.setConfigId( arg0.getConfigId() );
-        sysConfigVo.setConfigKey( arg0.getConfigKey() );
         sysConfigVo.setConfigName( arg0.getConfigName() );
-        sysConfigVo.setConfigType( arg0.getConfigType() );
+        sysConfigVo.setConfigKey( arg0.getConfigKey() );
         sysConfigVo.setConfigValue( arg0.getConfigValue() );
-        sysConfigVo.setCreateTime( arg0.getCreateTime() );
+        sysConfigVo.setConfigType( arg0.getConfigType() );
         sysConfigVo.setRemark( arg0.getRemark() );
+        sysConfigVo.setCreateTime( arg0.getCreateTime() );
 
         return sysConfigVo;
     }
@@ -38,12 +38,12 @@ public class SysConfigToSysConfigVoMapperImpl implements SysConfigToSysConfigVoM
         }
 
         arg1.setConfigId( arg0.getConfigId() );
-        arg1.setConfigKey( arg0.getConfigKey() );
         arg1.setConfigName( arg0.getConfigName() );
-        arg1.setConfigType( arg0.getConfigType() );
+        arg1.setConfigKey( arg0.getConfigKey() );
         arg1.setConfigValue( arg0.getConfigValue() );
-        arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setConfigType( arg0.getConfigType() );
         arg1.setRemark( arg0.getRemark() );
+        arg1.setCreateTime( arg0.getCreateTime() );
 
         return arg1;
     }

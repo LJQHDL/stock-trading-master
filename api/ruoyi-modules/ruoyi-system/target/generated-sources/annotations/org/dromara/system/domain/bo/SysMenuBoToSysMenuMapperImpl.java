@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:01+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:35+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysMenuBoToSysMenuMapperImpl implements SysMenuBoToSysMenuMapper {
@@ -22,16 +22,16 @@ public class SysMenuBoToSysMenuMapperImpl implements SysMenuBoToSysMenuMapper {
 
         SysMenu sysMenu = new SysMenu();
 
-        sysMenu.setCreateBy( arg0.getCreateBy() );
+        sysMenu.setSearchValue( arg0.getSearchValue() );
         sysMenu.setCreateDept( arg0.getCreateDept() );
+        sysMenu.setCreateBy( arg0.getCreateBy() );
         sysMenu.setCreateTime( arg0.getCreateTime() );
+        sysMenu.setUpdateBy( arg0.getUpdateBy() );
+        sysMenu.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysMenu.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysMenu.setSearchValue( arg0.getSearchValue() );
-        sysMenu.setUpdateBy( arg0.getUpdateBy() );
-        sysMenu.setUpdateTime( arg0.getUpdateTime() );
         sysMenu.setComponent( arg0.getComponent() );
         sysMenu.setIcon( arg0.getIcon() );
         sysMenu.setIsCache( arg0.getIsCache() );
@@ -57,9 +57,12 @@ public class SysMenuBoToSysMenuMapperImpl implements SysMenuBoToSysMenuMapper {
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -76,9 +79,6 @@ public class SysMenuBoToSysMenuMapperImpl implements SysMenuBoToSysMenuMapper {
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
         arg1.setComponent( arg0.getComponent() );
         arg1.setIcon( arg0.getIcon() );
         arg1.setIsCache( arg0.getIsCache() );

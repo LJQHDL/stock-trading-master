@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:08+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:46+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class FlowCategoryBoToFlowCategoryMapperImpl implements FlowCategoryBoToFlowCategoryMapper {
@@ -22,16 +22,16 @@ public class FlowCategoryBoToFlowCategoryMapperImpl implements FlowCategoryBoToF
 
         FlowCategory flowCategory = new FlowCategory();
 
-        flowCategory.setCreateBy( arg0.getCreateBy() );
+        flowCategory.setSearchValue( arg0.getSearchValue() );
         flowCategory.setCreateDept( arg0.getCreateDept() );
+        flowCategory.setCreateBy( arg0.getCreateBy() );
         flowCategory.setCreateTime( arg0.getCreateTime() );
+        flowCategory.setUpdateBy( arg0.getUpdateBy() );
+        flowCategory.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             flowCategory.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        flowCategory.setSearchValue( arg0.getSearchValue() );
-        flowCategory.setUpdateBy( arg0.getUpdateBy() );
-        flowCategory.setUpdateTime( arg0.getUpdateTime() );
         flowCategory.setCategoryId( arg0.getCategoryId() );
         flowCategory.setCategoryName( arg0.getCategoryName() );
         flowCategory.setOrderNum( arg0.getOrderNum() );
@@ -46,9 +46,12 @@ public class FlowCategoryBoToFlowCategoryMapperImpl implements FlowCategoryBoToF
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -65,9 +68,6 @@ public class FlowCategoryBoToFlowCategoryMapperImpl implements FlowCategoryBoToF
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
         arg1.setCategoryId( arg0.getCategoryId() );
         arg1.setCategoryName( arg0.getCategoryName() );
         arg1.setOrderNum( arg0.getOrderNum() );

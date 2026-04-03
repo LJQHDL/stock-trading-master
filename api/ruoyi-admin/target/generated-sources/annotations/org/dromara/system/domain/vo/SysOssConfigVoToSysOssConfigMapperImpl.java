@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysOssConfigVoToSysOssConfigMapperImpl implements SysOssConfigVoToSysOssConfigMapper {
@@ -20,20 +20,20 @@ public class SysOssConfigVoToSysOssConfigMapperImpl implements SysOssConfigVoToS
 
         SysOssConfig sysOssConfig = new SysOssConfig();
 
-        sysOssConfig.setAccessKey( arg0.getAccessKey() );
-        sysOssConfig.setAccessPolicy( arg0.getAccessPolicy() );
-        sysOssConfig.setBucketName( arg0.getBucketName() );
-        sysOssConfig.setConfigKey( arg0.getConfigKey() );
-        sysOssConfig.setDomain( arg0.getDomain() );
-        sysOssConfig.setEndpoint( arg0.getEndpoint() );
-        sysOssConfig.setExt1( arg0.getExt1() );
-        sysOssConfig.setIsHttps( arg0.getIsHttps() );
         sysOssConfig.setOssConfigId( arg0.getOssConfigId() );
-        sysOssConfig.setPrefix( arg0.getPrefix() );
-        sysOssConfig.setRegion( arg0.getRegion() );
-        sysOssConfig.setRemark( arg0.getRemark() );
+        sysOssConfig.setConfigKey( arg0.getConfigKey() );
+        sysOssConfig.setAccessKey( arg0.getAccessKey() );
         sysOssConfig.setSecretKey( arg0.getSecretKey() );
+        sysOssConfig.setBucketName( arg0.getBucketName() );
+        sysOssConfig.setPrefix( arg0.getPrefix() );
+        sysOssConfig.setEndpoint( arg0.getEndpoint() );
+        sysOssConfig.setDomain( arg0.getDomain() );
+        sysOssConfig.setIsHttps( arg0.getIsHttps() );
+        sysOssConfig.setRegion( arg0.getRegion() );
         sysOssConfig.setStatus( arg0.getStatus() );
+        sysOssConfig.setExt1( arg0.getExt1() );
+        sysOssConfig.setRemark( arg0.getRemark() );
+        sysOssConfig.setAccessPolicy( arg0.getAccessPolicy() );
 
         return sysOssConfig;
     }
@@ -44,20 +44,20 @@ public class SysOssConfigVoToSysOssConfigMapperImpl implements SysOssConfigVoToS
             return arg1;
         }
 
-        arg1.setAccessKey( arg0.getAccessKey() );
-        arg1.setAccessPolicy( arg0.getAccessPolicy() );
-        arg1.setBucketName( arg0.getBucketName() );
-        arg1.setConfigKey( arg0.getConfigKey() );
-        arg1.setDomain( arg0.getDomain() );
-        arg1.setEndpoint( arg0.getEndpoint() );
-        arg1.setExt1( arg0.getExt1() );
-        arg1.setIsHttps( arg0.getIsHttps() );
         arg1.setOssConfigId( arg0.getOssConfigId() );
-        arg1.setPrefix( arg0.getPrefix() );
-        arg1.setRegion( arg0.getRegion() );
-        arg1.setRemark( arg0.getRemark() );
+        arg1.setConfigKey( arg0.getConfigKey() );
+        arg1.setAccessKey( arg0.getAccessKey() );
         arg1.setSecretKey( arg0.getSecretKey() );
+        arg1.setBucketName( arg0.getBucketName() );
+        arg1.setPrefix( arg0.getPrefix() );
+        arg1.setEndpoint( arg0.getEndpoint() );
+        arg1.setDomain( arg0.getDomain() );
+        arg1.setIsHttps( arg0.getIsHttps() );
+        arg1.setRegion( arg0.getRegion() );
         arg1.setStatus( arg0.getStatus() );
+        arg1.setExt1( arg0.getExt1() );
+        arg1.setRemark( arg0.getRemark() );
+        arg1.setAccessPolicy( arg0.getAccessPolicy() );
 
         return arg1;
     }

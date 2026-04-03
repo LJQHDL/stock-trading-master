@@ -1,6 +1,6 @@
 package org.dromara.workflow.domain;
 
-import io.github.linpeilie.AutoMapperConfig__435;
+import io.github.linpeilie.AutoMapperConfig__439;
 import io.github.linpeilie.BaseMapper;
 import org.dromara.workflow.domain.bo.FlowCategoryBoToFlowCategoryMapper;
 import org.dromara.workflow.domain.vo.FlowCategoryVo;
@@ -8,7 +8,7 @@ import org.dromara.workflow.domain.vo.FlowCategoryVoToFlowCategoryMapper;
 import org.mapstruct.Mapper;
 
 @Mapper(
-    config = AutoMapperConfig__435.class,
+    config = AutoMapperConfig__439.class,
     uses = {FlowCategoryVoToFlowCategoryMapper.class,FlowCategoryBoToFlowCategoryMapper.class},
     imports = {}
 )

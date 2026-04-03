@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:03+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class TenantListVoToSysTenantVoMapperImpl implements TenantListVoToSysTenantVoMapper {
@@ -20,9 +20,9 @@ public class TenantListVoToSysTenantVoMapperImpl implements TenantListVoToSysTen
 
         SysTenantVo sysTenantVo = new SysTenantVo();
 
+        sysTenantVo.setTenantId( arg0.getTenantId() );
         sysTenantVo.setCompanyName( arg0.getCompanyName() );
         sysTenantVo.setDomain( arg0.getDomain() );
-        sysTenantVo.setTenantId( arg0.getTenantId() );
 
         return sysTenantVo;
     }
@@ -33,9 +33,9 @@ public class TenantListVoToSysTenantVoMapperImpl implements TenantListVoToSysTen
             return arg1;
         }
 
+        arg1.setTenantId( arg0.getTenantId() );
         arg1.setCompanyName( arg0.getCompanyName() );
         arg1.setDomain( arg0.getDomain() );
-        arg1.setTenantId( arg0.getTenantId() );
 
         return arg1;
     }

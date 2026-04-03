@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysTenantToSysTenantVoMapperImpl implements SysTenantToSysTenantVoMapper {
@@ -20,20 +20,20 @@ public class SysTenantToSysTenantVoMapperImpl implements SysTenantToSysTenantVoM
 
         SysTenantVo sysTenantVo = new SysTenantVo();
 
-        sysTenantVo.setAccountCount( arg0.getAccountCount() );
-        sysTenantVo.setAddress( arg0.getAddress() );
-        sysTenantVo.setCompanyName( arg0.getCompanyName() );
-        sysTenantVo.setContactPhone( arg0.getContactPhone() );
-        sysTenantVo.setContactUserName( arg0.getContactUserName() );
-        sysTenantVo.setDomain( arg0.getDomain() );
-        sysTenantVo.setExpireTime( arg0.getExpireTime() );
         sysTenantVo.setId( arg0.getId() );
-        sysTenantVo.setIntro( arg0.getIntro() );
-        sysTenantVo.setLicenseNumber( arg0.getLicenseNumber() );
-        sysTenantVo.setPackageId( arg0.getPackageId() );
-        sysTenantVo.setRemark( arg0.getRemark() );
-        sysTenantVo.setStatus( arg0.getStatus() );
         sysTenantVo.setTenantId( arg0.getTenantId() );
+        sysTenantVo.setContactUserName( arg0.getContactUserName() );
+        sysTenantVo.setContactPhone( arg0.getContactPhone() );
+        sysTenantVo.setCompanyName( arg0.getCompanyName() );
+        sysTenantVo.setLicenseNumber( arg0.getLicenseNumber() );
+        sysTenantVo.setAddress( arg0.getAddress() );
+        sysTenantVo.setDomain( arg0.getDomain() );
+        sysTenantVo.setIntro( arg0.getIntro() );
+        sysTenantVo.setRemark( arg0.getRemark() );
+        sysTenantVo.setPackageId( arg0.getPackageId() );
+        sysTenantVo.setExpireTime( arg0.getExpireTime() );
+        sysTenantVo.setAccountCount( arg0.getAccountCount() );
+        sysTenantVo.setStatus( arg0.getStatus() );
 
         return sysTenantVo;
     }
@@ -44,20 +44,20 @@ public class SysTenantToSysTenantVoMapperImpl implements SysTenantToSysTenantVoM
             return arg1;
         }
 
-        arg1.setAccountCount( arg0.getAccountCount() );
-        arg1.setAddress( arg0.getAddress() );
-        arg1.setCompanyName( arg0.getCompanyName() );
-        arg1.setContactPhone( arg0.getContactPhone() );
-        arg1.setContactUserName( arg0.getContactUserName() );
-        arg1.setDomain( arg0.getDomain() );
-        arg1.setExpireTime( arg0.getExpireTime() );
         arg1.setId( arg0.getId() );
-        arg1.setIntro( arg0.getIntro() );
-        arg1.setLicenseNumber( arg0.getLicenseNumber() );
-        arg1.setPackageId( arg0.getPackageId() );
-        arg1.setRemark( arg0.getRemark() );
-        arg1.setStatus( arg0.getStatus() );
         arg1.setTenantId( arg0.getTenantId() );
+        arg1.setContactUserName( arg0.getContactUserName() );
+        arg1.setContactPhone( arg0.getContactPhone() );
+        arg1.setCompanyName( arg0.getCompanyName() );
+        arg1.setLicenseNumber( arg0.getLicenseNumber() );
+        arg1.setAddress( arg0.getAddress() );
+        arg1.setDomain( arg0.getDomain() );
+        arg1.setIntro( arg0.getIntro() );
+        arg1.setRemark( arg0.getRemark() );
+        arg1.setPackageId( arg0.getPackageId() );
+        arg1.setExpireTime( arg0.getExpireTime() );
+        arg1.setAccountCount( arg0.getAccountCount() );
+        arg1.setStatus( arg0.getStatus() );
 
         return arg1;
     }

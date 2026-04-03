@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:01+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:36+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysTenantBoToSysTenantMapperImpl implements SysTenantBoToSysTenantMapper {
@@ -22,16 +22,16 @@ public class SysTenantBoToSysTenantMapperImpl implements SysTenantBoToSysTenantM
 
         SysTenant sysTenant = new SysTenant();
 
-        sysTenant.setCreateBy( arg0.getCreateBy() );
+        sysTenant.setSearchValue( arg0.getSearchValue() );
         sysTenant.setCreateDept( arg0.getCreateDept() );
+        sysTenant.setCreateBy( arg0.getCreateBy() );
         sysTenant.setCreateTime( arg0.getCreateTime() );
+        sysTenant.setUpdateBy( arg0.getUpdateBy() );
+        sysTenant.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysTenant.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysTenant.setSearchValue( arg0.getSearchValue() );
-        sysTenant.setUpdateBy( arg0.getUpdateBy() );
-        sysTenant.setUpdateTime( arg0.getUpdateTime() );
         sysTenant.setAccountCount( arg0.getAccountCount() );
         sysTenant.setAddress( arg0.getAddress() );
         sysTenant.setCompanyName( arg0.getCompanyName() );
@@ -56,9 +56,12 @@ public class SysTenantBoToSysTenantMapperImpl implements SysTenantBoToSysTenantM
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -75,9 +78,6 @@ public class SysTenantBoToSysTenantMapperImpl implements SysTenantBoToSysTenantM
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
         arg1.setAccountCount( arg0.getAccountCount() );
         arg1.setAddress( arg0.getAddress() );
         arg1.setCompanyName( arg0.getCompanyName() );

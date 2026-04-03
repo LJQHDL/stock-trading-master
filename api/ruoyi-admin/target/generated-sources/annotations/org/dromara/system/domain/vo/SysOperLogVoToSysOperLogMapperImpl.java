@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysOperLogVoToSysOperLogMapperImpl implements SysOperLogVoToSysOperLogMapper {
@@ -20,24 +20,24 @@ public class SysOperLogVoToSysOperLogMapperImpl implements SysOperLogVoToSysOper
 
         SysOperLog sysOperLog = new SysOperLog();
 
-        sysOperLog.setBusinessType( arg0.getBusinessType() );
-        sysOperLog.setCostTime( arg0.getCostTime() );
-        sysOperLog.setDeptName( arg0.getDeptName() );
-        sysOperLog.setErrorMsg( arg0.getErrorMsg() );
-        sysOperLog.setJsonResult( arg0.getJsonResult() );
-        sysOperLog.setMethod( arg0.getMethod() );
         sysOperLog.setOperId( arg0.getOperId() );
-        sysOperLog.setOperIp( arg0.getOperIp() );
-        sysOperLog.setOperLocation( arg0.getOperLocation() );
-        sysOperLog.setOperName( arg0.getOperName() );
-        sysOperLog.setOperParam( arg0.getOperParam() );
-        sysOperLog.setOperTime( arg0.getOperTime() );
-        sysOperLog.setOperUrl( arg0.getOperUrl() );
-        sysOperLog.setOperatorType( arg0.getOperatorType() );
-        sysOperLog.setRequestMethod( arg0.getRequestMethod() );
-        sysOperLog.setStatus( arg0.getStatus() );
         sysOperLog.setTenantId( arg0.getTenantId() );
         sysOperLog.setTitle( arg0.getTitle() );
+        sysOperLog.setBusinessType( arg0.getBusinessType() );
+        sysOperLog.setMethod( arg0.getMethod() );
+        sysOperLog.setRequestMethod( arg0.getRequestMethod() );
+        sysOperLog.setOperatorType( arg0.getOperatorType() );
+        sysOperLog.setOperName( arg0.getOperName() );
+        sysOperLog.setDeptName( arg0.getDeptName() );
+        sysOperLog.setOperUrl( arg0.getOperUrl() );
+        sysOperLog.setOperIp( arg0.getOperIp() );
+        sysOperLog.setOperLocation( arg0.getOperLocation() );
+        sysOperLog.setOperParam( arg0.getOperParam() );
+        sysOperLog.setJsonResult( arg0.getJsonResult() );
+        sysOperLog.setStatus( arg0.getStatus() );
+        sysOperLog.setErrorMsg( arg0.getErrorMsg() );
+        sysOperLog.setOperTime( arg0.getOperTime() );
+        sysOperLog.setCostTime( arg0.getCostTime() );
 
         return sysOperLog;
     }
@@ -48,24 +48,24 @@ public class SysOperLogVoToSysOperLogMapperImpl implements SysOperLogVoToSysOper
             return arg1;
         }
 
-        arg1.setBusinessType( arg0.getBusinessType() );
-        arg1.setCostTime( arg0.getCostTime() );
-        arg1.setDeptName( arg0.getDeptName() );
-        arg1.setErrorMsg( arg0.getErrorMsg() );
-        arg1.setJsonResult( arg0.getJsonResult() );
-        arg1.setMethod( arg0.getMethod() );
         arg1.setOperId( arg0.getOperId() );
-        arg1.setOperIp( arg0.getOperIp() );
-        arg1.setOperLocation( arg0.getOperLocation() );
-        arg1.setOperName( arg0.getOperName() );
-        arg1.setOperParam( arg0.getOperParam() );
-        arg1.setOperTime( arg0.getOperTime() );
-        arg1.setOperUrl( arg0.getOperUrl() );
-        arg1.setOperatorType( arg0.getOperatorType() );
-        arg1.setRequestMethod( arg0.getRequestMethod() );
-        arg1.setStatus( arg0.getStatus() );
         arg1.setTenantId( arg0.getTenantId() );
         arg1.setTitle( arg0.getTitle() );
+        arg1.setBusinessType( arg0.getBusinessType() );
+        arg1.setMethod( arg0.getMethod() );
+        arg1.setRequestMethod( arg0.getRequestMethod() );
+        arg1.setOperatorType( arg0.getOperatorType() );
+        arg1.setOperName( arg0.getOperName() );
+        arg1.setDeptName( arg0.getDeptName() );
+        arg1.setOperUrl( arg0.getOperUrl() );
+        arg1.setOperIp( arg0.getOperIp() );
+        arg1.setOperLocation( arg0.getOperLocation() );
+        arg1.setOperParam( arg0.getOperParam() );
+        arg1.setJsonResult( arg0.getJsonResult() );
+        arg1.setStatus( arg0.getStatus() );
+        arg1.setErrorMsg( arg0.getErrorMsg() );
+        arg1.setOperTime( arg0.getOperTime() );
+        arg1.setCostTime( arg0.getCostTime() );
 
         return arg1;
     }

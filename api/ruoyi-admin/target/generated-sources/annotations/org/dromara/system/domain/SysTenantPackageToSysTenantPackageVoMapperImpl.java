@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysTenantPackageToSysTenantPackageVoMapperImpl implements SysTenantPackageToSysTenantPackageVoMapper {
@@ -20,11 +20,11 @@ public class SysTenantPackageToSysTenantPackageVoMapperImpl implements SysTenant
 
         SysTenantPackageVo sysTenantPackageVo = new SysTenantPackageVo();
 
-        sysTenantPackageVo.setMenuCheckStrictly( arg0.getMenuCheckStrictly() );
-        sysTenantPackageVo.setMenuIds( arg0.getMenuIds() );
         sysTenantPackageVo.setPackageId( arg0.getPackageId() );
         sysTenantPackageVo.setPackageName( arg0.getPackageName() );
+        sysTenantPackageVo.setMenuIds( arg0.getMenuIds() );
         sysTenantPackageVo.setRemark( arg0.getRemark() );
+        sysTenantPackageVo.setMenuCheckStrictly( arg0.getMenuCheckStrictly() );
         sysTenantPackageVo.setStatus( arg0.getStatus() );
 
         return sysTenantPackageVo;
@@ -36,11 +36,11 @@ public class SysTenantPackageToSysTenantPackageVoMapperImpl implements SysTenant
             return arg1;
         }
 
-        arg1.setMenuCheckStrictly( arg0.getMenuCheckStrictly() );
-        arg1.setMenuIds( arg0.getMenuIds() );
         arg1.setPackageId( arg0.getPackageId() );
         arg1.setPackageName( arg0.getPackageName() );
+        arg1.setMenuIds( arg0.getMenuIds() );
         arg1.setRemark( arg0.getRemark() );
+        arg1.setMenuCheckStrictly( arg0.getMenuCheckStrictly() );
         arg1.setStatus( arg0.getStatus() );
 
         return arg1;

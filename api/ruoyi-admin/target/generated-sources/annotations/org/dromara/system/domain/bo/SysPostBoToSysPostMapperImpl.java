@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysPostBoToSysPostMapperImpl implements SysPostBoToSysPostMapper {
@@ -22,24 +22,24 @@ public class SysPostBoToSysPostMapperImpl implements SysPostBoToSysPostMapper {
 
         SysPost sysPost = new SysPost();
 
-        sysPost.setCreateBy( arg0.getCreateBy() );
+        sysPost.setSearchValue( arg0.getSearchValue() );
         sysPost.setCreateDept( arg0.getCreateDept() );
+        sysPost.setCreateBy( arg0.getCreateBy() );
         sysPost.setCreateTime( arg0.getCreateTime() );
+        sysPost.setUpdateBy( arg0.getUpdateBy() );
+        sysPost.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysPost.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysPost.setSearchValue( arg0.getSearchValue() );
-        sysPost.setUpdateBy( arg0.getUpdateBy() );
-        sysPost.setUpdateTime( arg0.getUpdateTime() );
-        sysPost.setDeptId( arg0.getDeptId() );
-        sysPost.setPostCategory( arg0.getPostCategory() );
-        sysPost.setPostCode( arg0.getPostCode() );
         sysPost.setPostId( arg0.getPostId() );
+        sysPost.setDeptId( arg0.getDeptId() );
+        sysPost.setPostCode( arg0.getPostCode() );
         sysPost.setPostName( arg0.getPostName() );
+        sysPost.setPostCategory( arg0.getPostCategory() );
         sysPost.setPostSort( arg0.getPostSort() );
-        sysPost.setRemark( arg0.getRemark() );
         sysPost.setStatus( arg0.getStatus() );
+        sysPost.setRemark( arg0.getRemark() );
 
         return sysPost;
     }
@@ -50,9 +50,12 @@ public class SysPostBoToSysPostMapperImpl implements SysPostBoToSysPostMapper {
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -69,17 +72,14 @@ public class SysPostBoToSysPostMapperImpl implements SysPostBoToSysPostMapper {
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
-        arg1.setDeptId( arg0.getDeptId() );
-        arg1.setPostCategory( arg0.getPostCategory() );
-        arg1.setPostCode( arg0.getPostCode() );
         arg1.setPostId( arg0.getPostId() );
+        arg1.setDeptId( arg0.getDeptId() );
+        arg1.setPostCode( arg0.getPostCode() );
         arg1.setPostName( arg0.getPostName() );
+        arg1.setPostCategory( arg0.getPostCategory() );
         arg1.setPostSort( arg0.getPostSort() );
-        arg1.setRemark( arg0.getRemark() );
         arg1.setStatus( arg0.getStatus() );
+        arg1.setRemark( arg0.getRemark() );
 
         return arg1;
     }

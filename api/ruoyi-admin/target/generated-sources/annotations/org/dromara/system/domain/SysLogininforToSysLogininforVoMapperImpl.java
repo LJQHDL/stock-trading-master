@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:06+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:42+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysLogininforToSysLogininforVoMapperImpl implements SysLogininforToSysLogininforVoMapper {
@@ -20,18 +20,18 @@ public class SysLogininforToSysLogininforVoMapperImpl implements SysLogininforTo
 
         SysLogininforVo sysLogininforVo = new SysLogininforVo();
 
-        sysLogininforVo.setBrowser( arg0.getBrowser() );
-        sysLogininforVo.setClientKey( arg0.getClientKey() );
-        sysLogininforVo.setDeviceType( arg0.getDeviceType() );
         sysLogininforVo.setInfoId( arg0.getInfoId() );
-        sysLogininforVo.setIpaddr( arg0.getIpaddr() );
-        sysLogininforVo.setLoginLocation( arg0.getLoginLocation() );
-        sysLogininforVo.setLoginTime( arg0.getLoginTime() );
-        sysLogininforVo.setMsg( arg0.getMsg() );
-        sysLogininforVo.setOs( arg0.getOs() );
-        sysLogininforVo.setStatus( arg0.getStatus() );
         sysLogininforVo.setTenantId( arg0.getTenantId() );
         sysLogininforVo.setUserName( arg0.getUserName() );
+        sysLogininforVo.setClientKey( arg0.getClientKey() );
+        sysLogininforVo.setDeviceType( arg0.getDeviceType() );
+        sysLogininforVo.setStatus( arg0.getStatus() );
+        sysLogininforVo.setIpaddr( arg0.getIpaddr() );
+        sysLogininforVo.setLoginLocation( arg0.getLoginLocation() );
+        sysLogininforVo.setBrowser( arg0.getBrowser() );
+        sysLogininforVo.setOs( arg0.getOs() );
+        sysLogininforVo.setMsg( arg0.getMsg() );
+        sysLogininforVo.setLoginTime( arg0.getLoginTime() );
 
         return sysLogininforVo;
     }
@@ -42,18 +42,18 @@ public class SysLogininforToSysLogininforVoMapperImpl implements SysLogininforTo
             return arg1;
         }
 
-        arg1.setBrowser( arg0.getBrowser() );
-        arg1.setClientKey( arg0.getClientKey() );
-        arg1.setDeviceType( arg0.getDeviceType() );
         arg1.setInfoId( arg0.getInfoId() );
-        arg1.setIpaddr( arg0.getIpaddr() );
-        arg1.setLoginLocation( arg0.getLoginLocation() );
-        arg1.setLoginTime( arg0.getLoginTime() );
-        arg1.setMsg( arg0.getMsg() );
-        arg1.setOs( arg0.getOs() );
-        arg1.setStatus( arg0.getStatus() );
         arg1.setTenantId( arg0.getTenantId() );
         arg1.setUserName( arg0.getUserName() );
+        arg1.setClientKey( arg0.getClientKey() );
+        arg1.setDeviceType( arg0.getDeviceType() );
+        arg1.setStatus( arg0.getStatus() );
+        arg1.setIpaddr( arg0.getIpaddr() );
+        arg1.setLoginLocation( arg0.getLoginLocation() );
+        arg1.setBrowser( arg0.getBrowser() );
+        arg1.setOs( arg0.getOs() );
+        arg1.setMsg( arg0.getMsg() );
+        arg1.setLoginTime( arg0.getLoginTime() );
 
         return arg1;
     }

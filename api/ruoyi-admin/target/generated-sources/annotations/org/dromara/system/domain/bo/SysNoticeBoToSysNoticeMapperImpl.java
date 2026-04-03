@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:04+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:39+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysNoticeBoToSysNoticeMapperImpl implements SysNoticeBoToSysNoticeMapper {
@@ -22,22 +22,22 @@ public class SysNoticeBoToSysNoticeMapperImpl implements SysNoticeBoToSysNoticeM
 
         SysNotice sysNotice = new SysNotice();
 
-        sysNotice.setCreateBy( arg0.getCreateBy() );
+        sysNotice.setSearchValue( arg0.getSearchValue() );
         sysNotice.setCreateDept( arg0.getCreateDept() );
+        sysNotice.setCreateBy( arg0.getCreateBy() );
         sysNotice.setCreateTime( arg0.getCreateTime() );
+        sysNotice.setUpdateBy( arg0.getUpdateBy() );
+        sysNotice.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysNotice.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysNotice.setSearchValue( arg0.getSearchValue() );
-        sysNotice.setUpdateBy( arg0.getUpdateBy() );
-        sysNotice.setUpdateTime( arg0.getUpdateTime() );
-        sysNotice.setNoticeContent( arg0.getNoticeContent() );
         sysNotice.setNoticeId( arg0.getNoticeId() );
         sysNotice.setNoticeTitle( arg0.getNoticeTitle() );
         sysNotice.setNoticeType( arg0.getNoticeType() );
-        sysNotice.setRemark( arg0.getRemark() );
+        sysNotice.setNoticeContent( arg0.getNoticeContent() );
         sysNotice.setStatus( arg0.getStatus() );
+        sysNotice.setRemark( arg0.getRemark() );
 
         return sysNotice;
     }
@@ -48,9 +48,12 @@ public class SysNoticeBoToSysNoticeMapperImpl implements SysNoticeBoToSysNoticeM
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -67,15 +70,12 @@ public class SysNoticeBoToSysNoticeMapperImpl implements SysNoticeBoToSysNoticeM
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
-        arg1.setNoticeContent( arg0.getNoticeContent() );
         arg1.setNoticeId( arg0.getNoticeId() );
         arg1.setNoticeTitle( arg0.getNoticeTitle() );
         arg1.setNoticeType( arg0.getNoticeType() );
-        arg1.setRemark( arg0.getRemark() );
+        arg1.setNoticeContent( arg0.getNoticeContent() );
         arg1.setStatus( arg0.getStatus() );
+        arg1.setRemark( arg0.getRemark() );
 
         return arg1;
     }

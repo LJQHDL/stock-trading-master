@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysUserVoToSysUserMapperImpl implements SysUserVoToSysUserMapper {
@@ -22,20 +22,20 @@ public class SysUserVoToSysUserMapperImpl implements SysUserVoToSysUserMapper {
 
         sysUser.setCreateTime( arg0.getCreateTime() );
         sysUser.setTenantId( arg0.getTenantId() );
-        sysUser.setAvatar( arg0.getAvatar() );
-        sysUser.setDeptId( arg0.getDeptId() );
-        sysUser.setEmail( arg0.getEmail() );
-        sysUser.setLoginDate( arg0.getLoginDate() );
-        sysUser.setLoginIp( arg0.getLoginIp() );
-        sysUser.setNickName( arg0.getNickName() );
-        sysUser.setPassword( arg0.getPassword() );
-        sysUser.setPhonenumber( arg0.getPhonenumber() );
-        sysUser.setRemark( arg0.getRemark() );
-        sysUser.setSex( arg0.getSex() );
-        sysUser.setStatus( arg0.getStatus() );
         sysUser.setUserId( arg0.getUserId() );
+        sysUser.setDeptId( arg0.getDeptId() );
         sysUser.setUserName( arg0.getUserName() );
+        sysUser.setNickName( arg0.getNickName() );
         sysUser.setUserType( arg0.getUserType() );
+        sysUser.setEmail( arg0.getEmail() );
+        sysUser.setPhonenumber( arg0.getPhonenumber() );
+        sysUser.setSex( arg0.getSex() );
+        sysUser.setAvatar( arg0.getAvatar() );
+        sysUser.setPassword( arg0.getPassword() );
+        sysUser.setStatus( arg0.getStatus() );
+        sysUser.setLoginIp( arg0.getLoginIp() );
+        sysUser.setLoginDate( arg0.getLoginDate() );
+        sysUser.setRemark( arg0.getRemark() );
 
         return sysUser;
     }
@@ -48,20 +48,20 @@ public class SysUserVoToSysUserMapperImpl implements SysUserVoToSysUserMapper {
 
         arg1.setCreateTime( arg0.getCreateTime() );
         arg1.setTenantId( arg0.getTenantId() );
-        arg1.setAvatar( arg0.getAvatar() );
-        arg1.setDeptId( arg0.getDeptId() );
-        arg1.setEmail( arg0.getEmail() );
-        arg1.setLoginDate( arg0.getLoginDate() );
-        arg1.setLoginIp( arg0.getLoginIp() );
-        arg1.setNickName( arg0.getNickName() );
-        arg1.setPassword( arg0.getPassword() );
-        arg1.setPhonenumber( arg0.getPhonenumber() );
-        arg1.setRemark( arg0.getRemark() );
-        arg1.setSex( arg0.getSex() );
-        arg1.setStatus( arg0.getStatus() );
         arg1.setUserId( arg0.getUserId() );
+        arg1.setDeptId( arg0.getDeptId() );
         arg1.setUserName( arg0.getUserName() );
+        arg1.setNickName( arg0.getNickName() );
         arg1.setUserType( arg0.getUserType() );
+        arg1.setEmail( arg0.getEmail() );
+        arg1.setPhonenumber( arg0.getPhonenumber() );
+        arg1.setSex( arg0.getSex() );
+        arg1.setAvatar( arg0.getAvatar() );
+        arg1.setPassword( arg0.getPassword() );
+        arg1.setStatus( arg0.getStatus() );
+        arg1.setLoginIp( arg0.getLoginIp() );
+        arg1.setLoginDate( arg0.getLoginDate() );
+        arg1.setRemark( arg0.getRemark() );
 
         return arg1;
     }

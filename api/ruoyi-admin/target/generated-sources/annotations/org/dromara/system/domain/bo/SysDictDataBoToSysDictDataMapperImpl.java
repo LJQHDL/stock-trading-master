@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:04+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:40+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysDictDataBoToSysDictDataMapperImpl implements SysDictDataBoToSysDictDataMapper {
@@ -22,24 +22,24 @@ public class SysDictDataBoToSysDictDataMapperImpl implements SysDictDataBoToSysD
 
         SysDictData sysDictData = new SysDictData();
 
-        sysDictData.setCreateBy( arg0.getCreateBy() );
+        sysDictData.setSearchValue( arg0.getSearchValue() );
         sysDictData.setCreateDept( arg0.getCreateDept() );
+        sysDictData.setCreateBy( arg0.getCreateBy() );
         sysDictData.setCreateTime( arg0.getCreateTime() );
+        sysDictData.setUpdateBy( arg0.getUpdateBy() );
+        sysDictData.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysDictData.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysDictData.setSearchValue( arg0.getSearchValue() );
-        sysDictData.setUpdateBy( arg0.getUpdateBy() );
-        sysDictData.setUpdateTime( arg0.getUpdateTime() );
-        sysDictData.setCssClass( arg0.getCssClass() );
         sysDictData.setDictCode( arg0.getDictCode() );
-        sysDictData.setDictLabel( arg0.getDictLabel() );
         sysDictData.setDictSort( arg0.getDictSort() );
-        sysDictData.setDictType( arg0.getDictType() );
+        sysDictData.setDictLabel( arg0.getDictLabel() );
         sysDictData.setDictValue( arg0.getDictValue() );
-        sysDictData.setIsDefault( arg0.getIsDefault() );
+        sysDictData.setDictType( arg0.getDictType() );
+        sysDictData.setCssClass( arg0.getCssClass() );
         sysDictData.setListClass( arg0.getListClass() );
+        sysDictData.setIsDefault( arg0.getIsDefault() );
         sysDictData.setRemark( arg0.getRemark() );
 
         return sysDictData;
@@ -51,9 +51,12 @@ public class SysDictDataBoToSysDictDataMapperImpl implements SysDictDataBoToSysD
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -70,17 +73,14 @@ public class SysDictDataBoToSysDictDataMapperImpl implements SysDictDataBoToSysD
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
-        arg1.setCssClass( arg0.getCssClass() );
         arg1.setDictCode( arg0.getDictCode() );
-        arg1.setDictLabel( arg0.getDictLabel() );
         arg1.setDictSort( arg0.getDictSort() );
-        arg1.setDictType( arg0.getDictType() );
+        arg1.setDictLabel( arg0.getDictLabel() );
         arg1.setDictValue( arg0.getDictValue() );
-        arg1.setIsDefault( arg0.getIsDefault() );
+        arg1.setDictType( arg0.getDictType() );
+        arg1.setCssClass( arg0.getCssClass() );
         arg1.setListClass( arg0.getListClass() );
+        arg1.setIsDefault( arg0.getIsDefault() );
         arg1.setRemark( arg0.getRemark() );
 
         return arg1;

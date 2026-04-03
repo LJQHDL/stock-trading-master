@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:04+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:40+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysOssToSysOssVoMapperImpl implements SysOssToSysOssVoMapper {
@@ -20,15 +20,15 @@ public class SysOssToSysOssVoMapperImpl implements SysOssToSysOssVoMapper {
 
         SysOssVo sysOssVo = new SysOssVo();
 
-        sysOssVo.setCreateBy( arg0.getCreateBy() );
-        sysOssVo.setCreateTime( arg0.getCreateTime() );
-        sysOssVo.setExt1( arg0.getExt1() );
-        sysOssVo.setFileName( arg0.getFileName() );
-        sysOssVo.setFileSuffix( arg0.getFileSuffix() );
-        sysOssVo.setOriginalName( arg0.getOriginalName() );
         sysOssVo.setOssId( arg0.getOssId() );
-        sysOssVo.setService( arg0.getService() );
+        sysOssVo.setFileName( arg0.getFileName() );
+        sysOssVo.setOriginalName( arg0.getOriginalName() );
+        sysOssVo.setFileSuffix( arg0.getFileSuffix() );
         sysOssVo.setUrl( arg0.getUrl() );
+        sysOssVo.setExt1( arg0.getExt1() );
+        sysOssVo.setCreateTime( arg0.getCreateTime() );
+        sysOssVo.setCreateBy( arg0.getCreateBy() );
+        sysOssVo.setService( arg0.getService() );
 
         return sysOssVo;
     }
@@ -39,15 +39,15 @@ public class SysOssToSysOssVoMapperImpl implements SysOssToSysOssVoMapper {
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
-        arg1.setCreateTime( arg0.getCreateTime() );
-        arg1.setExt1( arg0.getExt1() );
-        arg1.setFileName( arg0.getFileName() );
-        arg1.setFileSuffix( arg0.getFileSuffix() );
-        arg1.setOriginalName( arg0.getOriginalName() );
         arg1.setOssId( arg0.getOssId() );
-        arg1.setService( arg0.getService() );
+        arg1.setFileName( arg0.getFileName() );
+        arg1.setOriginalName( arg0.getOriginalName() );
+        arg1.setFileSuffix( arg0.getFileSuffix() );
         arg1.setUrl( arg0.getUrl() );
+        arg1.setExt1( arg0.getExt1() );
+        arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setService( arg0.getService() );
 
         return arg1;
     }

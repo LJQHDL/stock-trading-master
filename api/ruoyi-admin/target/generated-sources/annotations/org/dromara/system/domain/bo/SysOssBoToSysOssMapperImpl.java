@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysOssBoToSysOssMapperImpl implements SysOssBoToSysOssMapper {
@@ -22,23 +22,23 @@ public class SysOssBoToSysOssMapperImpl implements SysOssBoToSysOssMapper {
 
         SysOss sysOss = new SysOss();
 
-        sysOss.setCreateBy( arg0.getCreateBy() );
+        sysOss.setSearchValue( arg0.getSearchValue() );
         sysOss.setCreateDept( arg0.getCreateDept() );
+        sysOss.setCreateBy( arg0.getCreateBy() );
         sysOss.setCreateTime( arg0.getCreateTime() );
+        sysOss.setUpdateBy( arg0.getUpdateBy() );
+        sysOss.setUpdateTime( arg0.getUpdateTime() );
         Map<String, Object> map = arg0.getParams();
         if ( map != null ) {
             sysOss.setParams( new LinkedHashMap<String, Object>( map ) );
         }
-        sysOss.setSearchValue( arg0.getSearchValue() );
-        sysOss.setUpdateBy( arg0.getUpdateBy() );
-        sysOss.setUpdateTime( arg0.getUpdateTime() );
-        sysOss.setExt1( arg0.getExt1() );
-        sysOss.setFileName( arg0.getFileName() );
-        sysOss.setFileSuffix( arg0.getFileSuffix() );
-        sysOss.setOriginalName( arg0.getOriginalName() );
         sysOss.setOssId( arg0.getOssId() );
-        sysOss.setService( arg0.getService() );
+        sysOss.setFileName( arg0.getFileName() );
+        sysOss.setOriginalName( arg0.getOriginalName() );
+        sysOss.setFileSuffix( arg0.getFileSuffix() );
         sysOss.setUrl( arg0.getUrl() );
+        sysOss.setExt1( arg0.getExt1() );
+        sysOss.setService( arg0.getService() );
 
         return sysOss;
     }
@@ -49,9 +49,12 @@ public class SysOssBoToSysOssMapperImpl implements SysOssBoToSysOssMapper {
             return arg1;
         }
 
-        arg1.setCreateBy( arg0.getCreateBy() );
+        arg1.setSearchValue( arg0.getSearchValue() );
         arg1.setCreateDept( arg0.getCreateDept() );
+        arg1.setCreateBy( arg0.getCreateBy() );
         arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setUpdateBy( arg0.getUpdateBy() );
+        arg1.setUpdateTime( arg0.getUpdateTime() );
         if ( arg1.getParams() != null ) {
             Map<String, Object> map = arg0.getParams();
             if ( map != null ) {
@@ -68,16 +71,13 @@ public class SysOssBoToSysOssMapperImpl implements SysOssBoToSysOssMapper {
                 arg1.setParams( new LinkedHashMap<String, Object>( map ) );
             }
         }
-        arg1.setSearchValue( arg0.getSearchValue() );
-        arg1.setUpdateBy( arg0.getUpdateBy() );
-        arg1.setUpdateTime( arg0.getUpdateTime() );
-        arg1.setExt1( arg0.getExt1() );
-        arg1.setFileName( arg0.getFileName() );
-        arg1.setFileSuffix( arg0.getFileSuffix() );
-        arg1.setOriginalName( arg0.getOriginalName() );
         arg1.setOssId( arg0.getOssId() );
-        arg1.setService( arg0.getService() );
+        arg1.setFileName( arg0.getFileName() );
+        arg1.setOriginalName( arg0.getOriginalName() );
+        arg1.setFileSuffix( arg0.getFileSuffix() );
         arg1.setUrl( arg0.getUrl() );
+        arg1.setExt1( arg0.getExt1() );
+        arg1.setService( arg0.getService() );
 
         return arg1;
     }

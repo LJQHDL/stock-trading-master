@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:42+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysClientToSysClientVoMapperImpl implements SysClientToSysClientVoMapper {
@@ -20,15 +20,15 @@ public class SysClientToSysClientVoMapperImpl implements SysClientToSysClientVoM
 
         SysClientVo sysClientVo = new SysClientVo();
 
-        sysClientVo.setActiveTimeout( arg0.getActiveTimeout() );
+        sysClientVo.setId( arg0.getId() );
         sysClientVo.setClientId( arg0.getClientId() );
         sysClientVo.setClientKey( arg0.getClientKey() );
         sysClientVo.setClientSecret( arg0.getClientSecret() );
-        sysClientVo.setDeviceType( arg0.getDeviceType() );
         sysClientVo.setGrantType( arg0.getGrantType() );
-        sysClientVo.setId( arg0.getId() );
-        sysClientVo.setStatus( arg0.getStatus() );
+        sysClientVo.setDeviceType( arg0.getDeviceType() );
+        sysClientVo.setActiveTimeout( arg0.getActiveTimeout() );
         sysClientVo.setTimeout( arg0.getTimeout() );
+        sysClientVo.setStatus( arg0.getStatus() );
 
         return sysClientVo;
     }
@@ -39,15 +39,15 @@ public class SysClientToSysClientVoMapperImpl implements SysClientToSysClientVoM
             return arg1;
         }
 
-        arg1.setActiveTimeout( arg0.getActiveTimeout() );
+        arg1.setId( arg0.getId() );
         arg1.setClientId( arg0.getClientId() );
         arg1.setClientKey( arg0.getClientKey() );
         arg1.setClientSecret( arg0.getClientSecret() );
-        arg1.setDeviceType( arg0.getDeviceType() );
         arg1.setGrantType( arg0.getGrantType() );
-        arg1.setId( arg0.getId() );
-        arg1.setStatus( arg0.getStatus() );
+        arg1.setDeviceType( arg0.getDeviceType() );
+        arg1.setActiveTimeout( arg0.getActiveTimeout() );
         arg1.setTimeout( arg0.getTimeout() );
+        arg1.setStatus( arg0.getStatus() );
 
         return arg1;
     }

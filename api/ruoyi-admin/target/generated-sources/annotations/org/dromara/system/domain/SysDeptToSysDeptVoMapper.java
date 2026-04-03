@@ -1,6 +1,6 @@
 package org.dromara.system.domain;
 
-import io.github.linpeilie.AutoMapperConfig__434;
+import io.github.linpeilie.AutoMapperConfig__438;
 import io.github.linpeilie.BaseMapper;
 import org.dromara.system.domain.bo.SysDeptBoToSysDeptMapper;
 import org.dromara.system.domain.vo.SysDeptVo;
@@ -8,7 +8,7 @@ import org.dromara.system.domain.vo.SysDeptVoToSysDeptMapper;
 import org.mapstruct.Mapper;
 
 @Mapper(
-    config = AutoMapperConfig__434.class,
+    config = AutoMapperConfig__438.class,
     uses = {SysDeptBoToSysDeptMapper.class,SysDeptVoToSysDeptMapper.class,SysDeptBoToSysDeptMapper.class},
     imports = {}
 )

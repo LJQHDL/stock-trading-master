@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:05+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:41+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysDictTypeToSysDictTypeVoMapperImpl implements SysDictTypeToSysDictTypeVoMapper {
@@ -20,11 +20,11 @@ public class SysDictTypeToSysDictTypeVoMapperImpl implements SysDictTypeToSysDic
 
         SysDictTypeVo sysDictTypeVo = new SysDictTypeVo();
 
-        sysDictTypeVo.setCreateTime( arg0.getCreateTime() );
         sysDictTypeVo.setDictId( arg0.getDictId() );
         sysDictTypeVo.setDictName( arg0.getDictName() );
         sysDictTypeVo.setDictType( arg0.getDictType() );
         sysDictTypeVo.setRemark( arg0.getRemark() );
+        sysDictTypeVo.setCreateTime( arg0.getCreateTime() );
 
         return sysDictTypeVo;
     }
@@ -35,11 +35,11 @@ public class SysDictTypeToSysDictTypeVoMapperImpl implements SysDictTypeToSysDic
             return arg1;
         }
 
-        arg1.setCreateTime( arg0.getCreateTime() );
         arg1.setDictId( arg0.getDictId() );
         arg1.setDictName( arg0.getDictName() );
         arg1.setDictType( arg0.getDictType() );
         arg1.setRemark( arg0.getRemark() );
+        arg1.setCreateTime( arg0.getCreateTime() );
 
         return arg1;
     }

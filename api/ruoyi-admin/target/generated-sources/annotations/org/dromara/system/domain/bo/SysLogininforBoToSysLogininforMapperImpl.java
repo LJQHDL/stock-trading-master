@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-13T13:36:04+0800",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+    date = "2026-04-04T00:25:40+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260224-0835, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class SysLogininforBoToSysLogininforMapperImpl implements SysLogininforBoToSysLogininforMapper {
@@ -20,18 +20,18 @@ public class SysLogininforBoToSysLogininforMapperImpl implements SysLogininforBo
 
         SysLogininfor sysLogininfor = new SysLogininfor();
 
-        sysLogininfor.setBrowser( arg0.getBrowser() );
-        sysLogininfor.setClientKey( arg0.getClientKey() );
-        sysLogininfor.setDeviceType( arg0.getDeviceType() );
         sysLogininfor.setInfoId( arg0.getInfoId() );
-        sysLogininfor.setIpaddr( arg0.getIpaddr() );
-        sysLogininfor.setLoginLocation( arg0.getLoginLocation() );
-        sysLogininfor.setLoginTime( arg0.getLoginTime() );
-        sysLogininfor.setMsg( arg0.getMsg() );
-        sysLogininfor.setOs( arg0.getOs() );
-        sysLogininfor.setStatus( arg0.getStatus() );
         sysLogininfor.setTenantId( arg0.getTenantId() );
         sysLogininfor.setUserName( arg0.getUserName() );
+        sysLogininfor.setClientKey( arg0.getClientKey() );
+        sysLogininfor.setDeviceType( arg0.getDeviceType() );
+        sysLogininfor.setStatus( arg0.getStatus() );
+        sysLogininfor.setIpaddr( arg0.getIpaddr() );
+        sysLogininfor.setLoginLocation( arg0.getLoginLocation() );
+        sysLogininfor.setBrowser( arg0.getBrowser() );
+        sysLogininfor.setOs( arg0.getOs() );
+        sysLogininfor.setMsg( arg0.getMsg() );
+        sysLogininfor.setLoginTime( arg0.getLoginTime() );
 
         return sysLogininfor;
     }
@@ -42,18 +42,18 @@ public class SysLogininforBoToSysLogininforMapperImpl implements SysLogininforBo
             return arg1;
         }
 
-        arg1.setBrowser( arg0.getBrowser() );
-        arg1.setClientKey( arg0.getClientKey() );
-        arg1.setDeviceType( arg0.getDeviceType() );
         arg1.setInfoId( arg0.getInfoId() );
-        arg1.setIpaddr( arg0.getIpaddr() );
-        arg1.setLoginLocation( arg0.getLoginLocation() );
-        arg1.setLoginTime( arg0.getLoginTime() );
-        arg1.setMsg( arg0.getMsg() );
-        arg1.setOs( arg0.getOs() );
-        arg1.setStatus( arg0.getStatus() );
         arg1.setTenantId( arg0.getTenantId() );
         arg1.setUserName( arg0.getUserName() );
+        arg1.setClientKey( arg0.getClientKey() );
+        arg1.setDeviceType( arg0.getDeviceType() );
+        arg1.setStatus( arg0.getStatus() );
+        arg1.setIpaddr( arg0.getIpaddr() );
+        arg1.setLoginLocation( arg0.getLoginLocation() );
+        arg1.setBrowser( arg0.getBrowser() );
+        arg1.setOs( arg0.getOs() );
+        arg1.setMsg( arg0.getMsg() );
+        arg1.setLoginTime( arg0.getLoginTime() );
 
         return arg1;
     }
