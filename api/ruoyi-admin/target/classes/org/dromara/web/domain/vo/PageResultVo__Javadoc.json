@@ -1,0 +1,1 @@
+{"doc":" 分页结果对象\n\n @author Your Name\n @date 2023-03-22\n","fields":[{"name":"totalCount","doc":"总记录数 "},{"name":"page","doc":"当前页码 "},{"name":"num","doc":"每页显示条数 "},{"name":"data","doc":"数据列表 "}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" 办理人权限处理器\n\n @author AprilWind\n","fields":[],"enumConstants":[],"methods":[{"name":"permissions","paramTypes":[],"doc":" 审批前获取当前办理人，办理时会校验的该权限集合\n 后续在{@link TaskServiceImpl#checkAuth(Task, FlowParams)} 中调用\n 返回当前用户权限集合\n"},{"name":"getHandler","paramTypes":[],"doc":" 获取当前办理人\n\n @return 当前办理人\n"}],"constructors":[]}

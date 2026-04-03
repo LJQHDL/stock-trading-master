@@ -1,0 +1,1 @@
+{"doc":" 股票信息业务对象 stock\n\n @author Yao Bo\n @date 2025-03-22\n","fields":[{"name":"id","doc":" ID\n"},{"name":"name","doc":" 股票名字\n"},{"name":"code","doc":" 代码\n"},{"name":"remark","doc":" 备注\n"}],"enumConstants":[],"methods":[],"constructors":[]}

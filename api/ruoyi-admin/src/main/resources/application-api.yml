@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ruoyi-api
+
+
+juhe:
+  stock:
+    api-key: 5a65231850a01ed2b6699ed6b771a080
+    url: http://web.juhe.cn/finance/stock/usaall

@@ -1,0 +1,13 @@
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\controller\GenController.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\util\GenUtils.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\mapper\GenTableColumnMapper.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\config\MyBatisDataSourceMonitor.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\util\VelocityInitializer.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\config\GenConfig.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\constant\GenConstants.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\domain\GenTable.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\service\GenTableServiceImpl.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\domain\GenTableColumn.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\mapper\GenTableMapper.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\util\VelocityUtils.java
+F:\dlubaizhan\stock-trading-master\api\ruoyi-modules\ruoyi-generator\src\main\java\org\dromara\generator\service\IGenTableService.java

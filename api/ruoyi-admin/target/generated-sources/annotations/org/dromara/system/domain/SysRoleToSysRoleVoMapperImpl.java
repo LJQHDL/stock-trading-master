@@ -1,0 +1,56 @@
+package org.dromara.system.domain;
+
+import javax.annotation.processing.Generated;
+import org.dromara.system.domain.vo.SysRoleVo;
+import org.springframework.stereotype.Component;
+
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2025-09-13T13:36:06+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.43.0.v20250819-1513, environment: Java 21.0.8 (Eclipse Adoptium)"
+)
+@Component
+public class SysRoleToSysRoleVoMapperImpl implements SysRoleToSysRoleVoMapper {
+
+    @Override
+    public SysRoleVo convert(SysRole arg0) {
+        if ( arg0 == null ) {
+            return null;
+        }
+
+        SysRoleVo sysRoleVo = new SysRoleVo();
+
+        sysRoleVo.setCreateTime( arg0.getCreateTime() );
+        sysRoleVo.setDataScope( arg0.getDataScope() );
+        sysRoleVo.setDeptCheckStrictly( arg0.getDeptCheckStrictly() );
+        sysRoleVo.setMenuCheckStrictly( arg0.getMenuCheckStrictly() );
+        sysRoleVo.setRemark( arg0.getRemark() );
+        sysRoleVo.setRoleId( arg0.getRoleId() );
+        sysRoleVo.setRoleKey( arg0.getRoleKey() );
+        sysRoleVo.setRoleName( arg0.getRoleName() );
+        sysRoleVo.setRoleSort( arg0.getRoleSort() );
+        sysRoleVo.setStatus( arg0.getStatus() );
+
+        return sysRoleVo;
+    }
+
+    @Override
+    public SysRoleVo convert(SysRole arg0, SysRoleVo arg1) {
+        if ( arg0 == null ) {
+            return arg1;
+        }
+
+        arg1.setCreateTime( arg0.getCreateTime() );
+        arg1.setDataScope( arg0.getDataScope() );
+        arg1.setDeptCheckStrictly( arg0.getDeptCheckStrictly() );
+        arg1.setMenuCheckStrictly( arg0.getMenuCheckStrictly() );
+        arg1.setRemark( arg0.getRemark() );
+        arg1.setRoleId( arg0.getRoleId() );
+        arg1.setRoleKey( arg0.getRoleKey() );
+        arg1.setRoleName( arg0.getRoleName() );
+        arg1.setRoleSort( arg0.getRoleSort() );
+        arg1.setStatus( arg0.getStatus() );
+
+        return arg1;
+    }
+}
